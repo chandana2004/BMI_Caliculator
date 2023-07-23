@@ -1,0 +1,66 @@
+/* #image{
+    float: left;
+    margin-left: 50%;
+    padding-bottom: 35%;
+  
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    margin-left: 5%;
+    
+}
+#image {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 35%;
+    height: 35%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+h1{
+    left: 15%;
+}
+#wt,#ht{
+    font-size:16px;
+    width:200px;
+    padding:5px;
+    margin-left: 15%;
+    border: 1px solid black;
+    border-radius: 5%;
+   
+
+}
+#total_bmi{
+         font-size:16px;
+         border: 2px solid black;
+         background-color: yellow;
+         border-radius: 5%;
+         width: 100px;
+         margin-left: 19%;
+         margin-top: 1%;
+}
+h1{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#bmi,#category{
+    margin-left: 17%;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 10%;
+}
+#message{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    width: 20%;
+    margin-left: 12%;
+    background-color: #fff;
+    
+}
