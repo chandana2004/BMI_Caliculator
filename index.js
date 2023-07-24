@@ -4,15 +4,15 @@ if(bmi<18.5)
     {
         return "underweight";
     }
-    else if(bmi>=18.5&&bmi<=24.9)
+    else if(bmi>=18.5&&bmi<=25)
     {
         return "normal";
     }
-    else if(bmi>=25&&bmi<=29.9)
+    else if(bmi>25&&bmi<=29.9)
     {
         return "overweight";
     }
-    else if(bmi>=30&&bmi<=34.9){
+    else if(bmi>30&&bmi<=34.9){
         return "obese";
     }
     else{
@@ -30,7 +30,7 @@ function btn(){
     const  total_bmi=weight/(height*height);
     document.getElementById("bmi").innerHTML="BMI: "+Math.round(total_bmi);
     const bmi =category1(total_bmi);
-    console.log(bmi);
+    console.log(total_bmi);
     let normal_weight=24.9*height*height;
     let weight_to_be_reduced=weight-normal_weight;
     document.getElementById("category").innerHTML="Category: "+bmi;
