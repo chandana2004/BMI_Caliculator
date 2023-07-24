@@ -30,6 +30,7 @@ function btn(){
     const  total_bmi=weight/(height*height);
     document.getElementById("bmi").innerHTML="BMI: "+Math.round(total_bmi);
     const bmi =category1(total_bmi);
+    console.log(bmi);
     let normal_weight=24.9*height*height;
     let weight_to_be_reduced=weight-normal_weight;
     document.getElementById("category").innerHTML="Category: "+bmi;
