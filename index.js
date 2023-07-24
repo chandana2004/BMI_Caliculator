@@ -8,11 +8,11 @@ if(bmi<18.5)
     {
         return "normal";
     }
-    else if(bmi>25&&bmi<=29.9)
+    else if(bmi>=25&&bmi<=29.9)
     {
         return "overweight";
     }
-    else if(bmi>30&&bmi<=34.9){
+    else if(bmi>=30&&bmi<=34.9){
         return "obese";
     }
     else{
